@@ -16,7 +16,7 @@ Solution:download *Rtools* to my computer, preferably in disk C, and select "Add
 
 ## Error in library(dplyr) or Error in loadNamespace(name) :'sessioninfo'
 
-Solution:Errors like these indicate missing packages. Using `install.packages()` to solve it. The packages I installed are *dplyr*,*sessioninfo*,*lobstr*, *devtools*, *sloop*,*RSQLite*,*zeallot*,*profvis*,*bench*,*ggbeeswarm*.
+Solution:Errors like these indicate missing packages. Using `install.packages()` to solve it. The packages I installed are dplyr,sessioninfo,lobstr, devtools, sloop,profvis,bench,ggbeeswarm.
 
 ## In system(cmd) : 'make' not found
 
