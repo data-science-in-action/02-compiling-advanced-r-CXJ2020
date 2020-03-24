@@ -1,9 +1,10 @@
 ---
-title: "Problems and solutions"
+title: "Problems and Solutions"
 author: "CXJ2020"
 date: "2020/3/20"
 output: pdf_document
 ---
+During the building process, those are some errors I've met and how I solved them.
 
 ## Error in cat(paste0(contributors$desc, collapse = ", "))
 
@@ -21,3 +22,11 @@ Solution:Errors like these indicate missing packages. Using `install.packages()`
 ## In system(cmd) : 'make' not found
 
 Solution:Add *Rtools* to the system path, and restart the computer and Rstudio.
+
+## 'xelatex'not Found
+Solution:Use tinytex to install TinyTex might can't solve the problem, so I used MiKTeX instead.
+
+## Package fontspec Error: The font 'Inconsolata' and 'Andale Mono' cannot be found.
+Solution:Download the Inconsolata font and Andale Mono font, and place them in the C:/Windows/Fonts folder
+
+Through this experience,I have learnt a lot.Thanks for my teacher and classmates.
