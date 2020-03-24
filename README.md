@@ -1,10 +1,10 @@
 ---
-title: "Problems and Solutions"
-author: "CXJ2020"
-date: "2020/3/20"
-output: pdf_document
+Title: "Problems and Solutions"
+Author: "CXJ2020"
+Date: "2020/3/20"
+Output: pdf_document
 ---
-During the building process, those are some errors I've met and how I solved them.
+During the compiling process, those are some errors I've met and  I have solved them.
 
 ## Error in cat(paste0(contributors$desc, collapse = ", "))
 
